@@ -1,4 +1,4 @@
-### **HNG12 Stage 0 Public API**  
+# **HNG12 Stage 0 Public API**  
 
 This is a simple public API bulit with **Node.js** for HNG12 Stage 0 Backend that returns JSON with the email, current UTC datetime, and the GitHub repository link.
 
@@ -25,7 +25,7 @@ Server should now be running at `http://localhost:3000/`
 This project is hosted on **Render**. The production API is accessible at:  
 https://hngx-stage0-public-api-2kgx.onrender.com/
 
-### Response Format:
+### Response Format (200 OK):
 ```json
 {
   "email": "olorundamisi1@example.com",
