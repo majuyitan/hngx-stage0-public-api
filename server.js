@@ -4,16 +4,15 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
-const PORT = process.env.PORT || 3000;
-
 app.get("/", (req, res) => {
-  res.json({
+  res.status(200).json({
     email: "olorundamisi1@example.com",
     current_datetime: new Date().toISOString(),
     github_url: "https://github.com/majuyitan/hngx-stage0-public-api",
   });
 });
 
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
