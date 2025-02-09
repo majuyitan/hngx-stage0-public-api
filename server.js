@@ -6,7 +6,7 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   res.status(200).json({
-    email: "olorundamisi1@example.com",
+    email: "olorundamisi1@gmail.com",
     current_datetime: new Date().toISOString(),
     github_url: "https://github.com/majuyitan/hngx-stage0-public-api",
   });
