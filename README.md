@@ -1,6 +1,6 @@
 ### **HNG12 Stage 0 Public API**  
 
-This is a simple public REST API bulit with **Node.js** for HNG12 Stage 0 Backend.
+This is a simple public API bulit with **Node.js** for HNG12 Stage 0 Backend that returns JSON with the email, current UTC datetime, and the GitHub repository link.
 
 ##  **Installation & Setup**  
 
@@ -34,5 +34,5 @@ https://hngx-stage0-public-api-2kgx.onrender.com/
 }
 ```
 
-## Learn More
+## Hire Node.js Developers
 [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
